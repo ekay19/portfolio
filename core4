@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emma's Portfolio</title>
+  <style>
+    img{
+      width:100%
+    }
+    body{
+      background-color:#ffffff;
+      text-align: center;
+      font-family: helvetica;
+      <!--background: url("https://github.com/ekay19/portfolio/blob/images/Foresthaven2.png?raw=true");-->
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: lighten;
+      color: black;
+    }
+    input{
+      padding:10px;
+      font-size:15px;
+    }
+    header{
+      color: black;
+      background-color: #abc0f4;
+      clear: left;
+      text-align: center;
+      font-family: Century Gothic, sans serif;
+      padding: 10px;
+    }
+    nav{
+      color: black;
+      background-color: #c6f4ca;
+      clear: left;
+      text-align: center;
+      font-family: Tahoma, Geneva, sans-serif;
+      padding: 10px;
+    }
+  </style>
+</head>
+  
+<body>
+  <header>
+    <h1>Some Core4 BS</h1>
+  </header>
+  <nav>
+    <a href="https://ekay19.github.io/portfolio/contactme.html">Contact Me</a> |
+    <a href="https://ekay19.github.io/portfolio/projects.html">Projects</a> |
+    <a href="https://ekay19.github.io/portfolio/aboutme.html">About Me</a> |
+     <a href="https://ekay19.github.io/portfolio/core4.html">About Me</a> 
+  </nav>
+  
+</body>
+</html>
