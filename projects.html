@@ -35,15 +35,25 @@
       padding: 10px;
     }
     
-    .floated_img{
+    div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
     float: left;
-    padding:10px;
+    width: 180px;
     }
-    
-    .grid_12 { 
-      <!--display:inline;-->
-      float:left; margin-left:10px; 
-      margin-right:10px; 
+
+div.gallery:hover {
+    border: 1px solid #777;
+    }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
     }
 
   </style>
@@ -59,17 +69,23 @@
     <a href="https://ekay19.github.io/portfolio/aboutme.html">About Me</a> |
     <a href="https://ekay19.github.io/portfolio/core4.html">Core4</a>
   </nav>
-  <div class="grid_12>
-    <div class="floated_img">
-        <a href="https://scratch.mit.edu/projects/167674617/"><img src="https://github.com/ekay19/portfolio/blob/images/sidescrollerscreenshot.png?raw=true" style="width:30%;height:30%;" alt="An image of a cartoon cat against a blue sky with one cloud. It's a screenshot from a sidescrolling game."></a>
-        <p>A Scratch sidescroller that works in one direction.</p>
-    </div>
-
-    <div class="floated_img">
-      <img src="https://github.com/ekay19/portfolio/blob/images/textbasedadventure.png?raw=true" style="width:40%;height:40%; alt="An image of the command prompt of a windows OS, black screen with green text relating a short choose your own adventure.">
-      <p>A short choose-your-own-adventure style text-based game.</p>
-    </div>  
+  
+  <div class="gallery">
+    <a href="https://scratch.mit.edu/projects/167674617/"><img src="https://github.com/ekay19/portfolio/blob/images/sidescrollerscreenshot.png?raw=true" style="width:30%;height:30%;" alt="An image of a cartoon cat against a blue sky with one cloud. It's a screenshot from a sidescrolling game."></a>
+    <div class="desc">A Scratch sidescroller that works in one direction.</div>
   </div>
+
+  <div class="gallery">
+    <a href="https://scratch.mit.edu/projects/167674617/"><img src="https://github.com/ekay19/portfolio/blob/images/sidescrollerscreenshot.png?raw=true" style="width:30%;height:30%;" alt="An image of a cartoon cat against a blue sky with one cloud. It's a screenshot from a sidescrolling game."></a>
+    <div class="desc">A Scratch sidescroller that works in one direction.</div>
+  </div>
+  
+  <div class="gallery">
+    <a href="https://scratch.mit.edu/projects/167674617/"><img src="https://github.com/ekay19/portfolio/blob/images/sidescrollerscreenshot.png?raw=true" style="width:30%;height:30%;" alt="An image of a cartoon cat against a blue sky with one cloud. It's a screenshot from a sidescrolling game."></a>
+    <div class="desc">A Scratch sidescroller that works in one direction.</div>
+  </div>
+  
+  
  
 </body>
 </html>
