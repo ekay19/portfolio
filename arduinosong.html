@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code for Arduino to play "Gonna Fly Now"</title>
+</head>
+
+<body>
+  <code>
+    void setup() {
+      // put your setup code here, to run once:
+      pinMode(6,OUTPUT);
+    }
+
+    void loop() {
+      // put your main code here, to run repeatedly:
+      for (int i = 0; i < 2; i++){ //first line
+        tone(6,329.63,185);
+        delay(250);
+        tone(6,392.00,560);
+        delay(600);
+        tone(6,440.00,2000);
+        delay(2200);
+        tone(6,440.00, 185);
+        delay(250);
+        tone(6,493.88,560);
+        delay(650);
+        tone(6,329.63,2000);
+        delay(2200);
+
+      }
+      tone(6,587.33,185); //second line
+      delay(250);
+      tone(6,523.25,185);
+      delay(250);
+      tone(6,587.33,560);
+      delay(600);
+      tone(6,523.25,185);
+      delay(250);
+      tone(6,587.33,185);
+      delay(250);
+      tone(6,659.25,1310);
+      delay(1500);
+
+      tone(6,523.25,185); //third line
+      delay(250);
+      tone(6,523.25,185);
+      delay(250);
+      tone(6,498.88,375);
+      delay(500);
+      tone(6,498.88,185);
+      delay(250);
+      tone(6,440.00,370);
+      delay(420);
+      tone(6,440.00,185);
+      delay(250);
+      tone(6,392.00,750);
+      delay(850);
+      tone(6,698.46,375);
+      delay(450);
+      tone(6,659.25,1500);
+      delay(1700);
+    }
+  </code>    
+</body>
